@@ -25,7 +25,7 @@ for (const image of images) {
 
   // 3. Створює картинки
   const imageEl = document.createElement("img");
-  imageEl.url = image.url;
+  imageEl.src = image.url;
   imageEl.alt = image.alt;
   // Ширина умовно
   imageEl.width = 630;
