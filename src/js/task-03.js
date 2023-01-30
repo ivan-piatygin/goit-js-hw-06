@@ -28,7 +28,7 @@ for (const image of images) {
   imageEl.src = image.url;
   imageEl.alt = image.alt;
   // Ширина умовно
-  imageEl.width = 630;
+  imageEl.width = 315;
 
   // 4. Вкладає картинку у "лішку"
   itemEl.append(imageEl);

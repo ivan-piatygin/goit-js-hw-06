@@ -22,3 +22,17 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+
+/* Завдання 3 */
+
+.gallery {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.gallery li:not(:last-child){
+  margin-right: 10px;
+}
+
